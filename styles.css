@@ -1,0 +1,57 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Viga;
+}
+
+body {
+	background: whitesmoke;
+	background-image: url(background.webp);
+	height: 637px;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgba(252, 250, 250, 0.4);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #fdfdfd;
+	color: rgb(66, 65, 65);
+	border-radius: 25px;
+}
+
+.btn-green {
+	background: rgb(203, 203, 209);
+	color:rgb(66, 65, 65);
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: rgb(66, 65, 65);
+	border-radius: 25px;
+	text-align: right;
+}
